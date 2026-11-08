@@ -155,38 +155,18 @@ CV = Kp × e + Bias
 
 ## 📂 Repository Structure
 
-> 💡 Suggested layout for the new repository. Adjust it to match your actual files. The ladder programs are original work and are published here; plant-specific boiler data is intentionally left out.
-
 ```text
 ├── Omron_CX-One/
-│   ├── Ladder/            # CX-Programmer project (.cxp)
-│   └── HMI/               # CX-Designer project
+│   ├── Ladder/          
+│   └── HMI/              
 ├── AllenBradley_RSLogix5000/
 │   └── Otomasi_Boiler.ACD # RSLogix 5000 project
 ├── docs/
-│   ├── report/            # PKL report (PDF)
 │   ├── flowcharts/
 │   └── images/
 ├── README.md
 └── LICENSE
 ```
-
----
-
-## 🛠️ How to Open the Projects
-
-| Project | Software |
-|---|---|
-| Omron ladder logic | CX-Programmer (CX-One) |
-| Omron HMI | CX-Designer |
-| Virtual test | CX-Simulator (part of CX-One) |
-| Allen-Bradley logic | RSLogix 5000 / Studio 5000 Logix Designer |
-
-1. Open the Omron project in CX-Programmer and start CX-Simulator.
-2. Open the HMI project in CX-Designer and run it in test mode connected to the simulator.
-3. For HIL, open the RSLogix 5000 project and download it to the trainer's controller. Verify the I/O module configuration matches your hardware first.
-
----
 
 ## 📚 References and Standards
 
