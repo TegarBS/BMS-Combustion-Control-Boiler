@@ -158,12 +158,12 @@ CV = Kp × e + Bias
 ```text
 ├── Omron_CX-One/
 │   ├── Ladder/          
-│   └── HMI/              
+│   └── HMI.PNG              
 ├── AllenBradley_RSLogix5000/
-│   └── Otomasi_Boiler.ACD # RSLogix 5000 project
-├── docs/
-│   ├── flowcharts/
-│   └── images/
+│   ├── Ladder Diagram/
+│   ├── Otomasi_Boiler-Controller-Tags.CSV
+│   └── Traineer.jpeg
+├── flowcharts/
 ├── README.md
 └── LICENSE
 ```
