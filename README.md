@@ -163,7 +163,7 @@ CV = Kp × e + Bias
 │   ├── Ladder Diagram/
 │   ├── Otomasi_Boiler-Controller-Tags.CSV
 │   └── Traineer.jpeg
-├── flowcharts/
+├── Flowchart.pdf
 ├── README.md
 └── LICENSE
 ```
